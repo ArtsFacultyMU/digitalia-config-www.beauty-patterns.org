@@ -1,0 +1,39 @@
+uuid: 4e2d9b7f-221d-4273-bb0e-d4eba9d62eb3
+langcode: cs
+status: false
+dependencies:
+  config:
+    - views.view.bp_similar_images_media
+  module:
+    - islandora
+    - node
+    - views
+  theme:
+    - bartik
+id: views_block__bp_similar_images_media_block_1
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:bp_similar_images_media-block_1'
+settings:
+  id: 'views_block:bp_similar_images_media-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      fabric: fabric

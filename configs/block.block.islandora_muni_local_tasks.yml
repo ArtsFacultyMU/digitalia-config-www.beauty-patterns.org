@@ -1,0 +1,29 @@
+uuid: 7af544c7-2b25-43e0-bf28-f5f18f05ccb5
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+  theme:
+    - islandora_muni
+_core:
+  default_config_hash: 4QzgKElJKiM5Hn8afHMGjyQgEoA3tQYTnrEljQgnm18
+id: islandora_muni_local_tasks
+theme: islandora_muni
+region: content
+weight: -24
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

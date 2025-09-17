@@ -1,0 +1,11 @@
+uuid: 39bb7493-c442-40a8-a7b3-7a7d13cb0141
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: homepage_copyright
+title: 'Homepage copyright'
+content:
+  value: '<p class="copyright-title">Copyright</p><p><span>Beauty Patterns [dataset], authored and created by Masaryk University, can be used in accordance with the Creative Commons BY 4.0.</span></p><p><img class="license_icon" src="/themes/custom/islandora_muni/images/by.svg" alt="CC-BY-4.0" width="120" height="42"></p>'
+  format: full_html

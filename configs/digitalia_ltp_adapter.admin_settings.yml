@@ -1,0 +1,5 @@
+site_name: tkaniny-devel
+field_configuration: "fabric::date_created::[node:created:html_datetime]\r\nfabric::version_id::[node:vid]\r\nfabric_jpg::date_created::[media:created:date:html_datetime]\r\nfabric_jpg::media_of::[media:field_media_of]\r\nfabric_jpg::media_of_id::[media:field_media_of:target_id]\r\nfabric_png::date_created::[media:created:date:html_datetime]\r\nfabric_png::media_of::[media:field_media_of]\r\nfabric_png::media_of_id::[media:field_media_of:target_id]\r\nfabric_tif::date_created::[media:created:date:html_datetime]\r\nfabric_tif::media_of::[media:field_media_of]\r\nfabric_tif::media_of_id::[media:field_media_of:target_id]\r\nfabric_psd::date_created::[media:created:date:html_datetime]\r\nfabric_psd::media_of::[media:field_media_of]\r\nfabric_psd::media_of_id::[media:field_media_of:target_id]"
+enabled_ltp_systems: digitalia_ltp_adapter.ltp_system.archivematica
+only_published: 1
+enable_export: 1

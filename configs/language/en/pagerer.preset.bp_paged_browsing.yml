@@ -1,0 +1,15 @@
+panes:
+  center:
+    config:
+      tags:
+        pages:
+          prefix_label: 'Page @number of @total'
+          first_title: First
+          first_reader: First
+          previous_title: Previous
+          previous_reader: Previous
+          next_title: Next
+          next_reader: Next
+          last_title: Last
+          last_reader: Last
+          pageset_empty: 'No pages to display.'

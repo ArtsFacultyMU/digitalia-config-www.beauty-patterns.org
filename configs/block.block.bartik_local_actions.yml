@@ -1,0 +1,27 @@
+uuid: fb33e3f7-dabd-4019-b2de-7a7d8dd5e4f3
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+  theme:
+    - bartik
+_core:
+  default_config_hash: wo-GZHJ0Eqtew07FPGRokKYkDOYoTHvmHDqtNyGd3Jk
+id: bartik_local_actions
+theme: bartik
+region: content
+weight: -16
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

@@ -1,0 +1,33 @@
+uuid: 7c2ef45b-dc72-4ca2-9409-1064b5847078
+langcode: cs
+status: false
+dependencies:
+  config:
+    - simple_block.simple_block.bp_feedback_description
+  module:
+    - islandora
+    - simple_block
+    - system
+  theme:
+    - islandora_muni
+id: islandora_muni_bpfeedbackdescription
+theme: islandora_muni
+region: content
+weight: -14
+provider: null
+plugin: 'simple_block:bp_feedback_description'
+settings:
+  id: 'simple_block:bp_feedback_description'
+  label: 'Website feedback'
+  label_display: visible
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

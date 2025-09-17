@@ -1,0 +1,2 @@
+media_fields: 'image:field_media_image;file:field_media_file'
+reference_fields: field_member_of

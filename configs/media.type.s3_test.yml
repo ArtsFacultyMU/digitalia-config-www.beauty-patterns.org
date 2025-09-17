@@ -1,0 +1,14 @@
+uuid: 3e71cc6b-ef24-43f3-9809-6a30c66e21f1
+langcode: en
+status: true
+dependencies: {  }
+id: s3_test
+label: 'S3 TEST'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file_1
+field_map:
+  name: name

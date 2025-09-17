@@ -1,0 +1,33 @@
+uuid: 005a603f-9d36-44a6-9f5a-98968049de6e
+langcode: cs
+status: true
+dependencies:
+  config:
+    - entity_comparison.entity_comparison.tkanina
+  module:
+    - block_class
+    - entity_comparison
+    - islandora
+  theme:
+    - bartik
+third_party_settings:
+  block_class:
+    classes: '.right-align .region-primary-menu .menu-item .menu'
+id: tkanina
+theme: bartik
+region: primary_menu
+weight: -16
+provider: null
+plugin: 'entity_comparison_block:tkanina'
+settings:
+  id: 'entity_comparison_block:tkanina'
+  label: Tkanina
+  label_display: '0'
+  provider: entity_comparison
+  link_text: 'Srovnat položky (@count)'
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

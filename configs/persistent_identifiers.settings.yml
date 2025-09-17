@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: u1W0SzrexeSsiBpFn60VZX6MHJ-BOj_P_uSCSWmcxc4
+persistent_identifiers_target_field: field_handle
+persistent_identifiers_persister: persistent_identifiers.persister.generic
+persistent_identifiers_minter: hdl.minter.hdl
+persistent_identifiers_bundles:
+  - fabric
+  - 0
+  - 0
+  - 0
+  - 0
+persistent_identifiers_map_to_schema_sameas: 0
+langcode: cs
+persistent_identifiers_resolver_base_url: ''

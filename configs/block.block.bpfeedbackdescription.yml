@@ -1,0 +1,33 @@
+uuid: 1cf8633e-4d90-4392-9b5f-cd0e0988cd90
+langcode: cs
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.bp_feedback_description
+  module:
+    - islandora
+    - simple_block
+    - system
+  theme:
+    - bartik
+id: bpfeedbackdescription
+theme: bartik
+region: content
+weight: -14
+provider: null
+plugin: 'simple_block:bp_feedback_description'
+settings:
+  id: 'simple_block:bp_feedback_description'
+  label: 'Kontaktujte nás'
+  label_display: visible
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: /contact

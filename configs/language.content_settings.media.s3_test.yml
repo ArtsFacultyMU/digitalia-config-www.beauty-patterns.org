@@ -1,0 +1,11 @@
+uuid: 6ddd52d4-f1df-4b52-8432-de7d7e0d2baa
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.s3_test
+id: media.s3_test
+target_entity_type_id: media
+target_bundle: s3_test
+default_langcode: site_default
+language_alterable: false

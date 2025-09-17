@@ -1,0 +1,29 @@
+uuid: a11e8a11-fd78-4c34-aff6-db6f979757fe
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+  theme:
+    - bartik
+_core:
+  default_config_hash: 4QzgKElJKiM5Hn8afHMGjyQgEoA3tQYTnrEljQgnm18
+id: bartik_local_tasks
+theme: bartik
+region: content
+weight: -17
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Záložky
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

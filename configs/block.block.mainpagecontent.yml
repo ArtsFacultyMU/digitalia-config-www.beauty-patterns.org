@@ -1,0 +1,26 @@
+uuid: 103b0708-12c2-4849-a2dc-71d0c88fe1ba
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+    - system
+  theme:
+    - bartik
+id: mainpagecontent
+theme: bartik
+region: content
+weight: -12
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

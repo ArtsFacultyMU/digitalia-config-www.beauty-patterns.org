@@ -1,0 +1,35 @@
+uuid: 2ef39aea-58ba-42ea-aa65-3d55839e42db
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.bp_search
+  module:
+    - context
+    - islandora
+    - views
+  theme:
+    - islandora_muni
+id: islandora_muni_exposedformbp_searchmain_search_page
+theme: islandora_muni
+region: breadcrumb
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:bp_search-main_search_page'
+settings:
+  id: 'views_exposed_filter_block:bp_search-main_search_page'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+visibility:
+  view_inclusion:
+    id: view_inclusion
+    negate: false
+    view_inclusion:
+      view-bp_search-main_search_page: view-bp_search-main_search_page
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

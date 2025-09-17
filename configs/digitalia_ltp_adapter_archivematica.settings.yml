@@ -1,0 +1,8 @@
+am_host: 'https://archivematica.ics.muni.cz'
+api_key_username: admin
+api_key_password: 706bb087d83e7eef701db8a514a751d2cc4cd786
+base_url: 'public://ltp/archivematica'
+am_shared_path: /archivematica/drupal
+processing_config: automated
+transfer_field: ''
+sip_field: ''

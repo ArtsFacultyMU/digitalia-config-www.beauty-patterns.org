@@ -1,0 +1,33 @@
+uuid: b3ec005a-e0fc-4e75-86e2-4942791aa6ff
+langcode: cs
+status: true
+dependencies:
+  config:
+    - entity_comparison.entity_comparison.tkanina
+  module:
+    - block_class
+    - entity_comparison
+    - islandora
+  theme:
+    - islandora_muni
+third_party_settings:
+  block_class:
+    classes: '.right-align .region-primary-menu .menu-item .menu'
+id: islandora_muni_tkanina
+theme: islandora_muni
+region: featured_bottom_first
+weight: -21
+provider: null
+plugin: 'entity_comparison_block:tkanina'
+settings:
+  id: 'entity_comparison_block:tkanina'
+  label: Tkanina
+  label_display: '0'
+  provider: entity_comparison
+  link_text: 'Compare items (@count)'
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

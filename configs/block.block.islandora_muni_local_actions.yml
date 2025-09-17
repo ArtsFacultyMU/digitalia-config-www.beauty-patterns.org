@@ -1,0 +1,27 @@
+uuid: 9202d78a-be43-433f-9693-72d4895bd611
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+  theme:
+    - islandora_muni
+_core:
+  default_config_hash: wo-GZHJ0Eqtew07FPGRokKYkDOYoTHvmHDqtNyGd3Jk
+id: islandora_muni_local_actions
+theme: islandora_muni
+region: content
+weight: -23
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

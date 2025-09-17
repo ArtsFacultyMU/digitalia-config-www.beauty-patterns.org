@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: 6PQBSsRyX81lTFgc44CgmHotr19DK4tVapnDUDm2pO0
+langcode: cs
+media_fields: 'image:field_media_image;file:field_media_file;fabric_jpg:field_media_image;fabric_tif:field_media_file;fabric_psd:field_media_file;fabric_png:field_media_image'
+reference_fields: 'field_member_of:fabric;field_relation:fabric'
+media_delimiter: '|'
+reference_delimiter: '|'
+double_fields: ''
+triple_fields: ''

@@ -1,0 +1,33 @@
+uuid: 1e104990-7167-4ac4-955e-0380a6a1fca7
+langcode: cs
+status: false
+dependencies:
+  config:
+    - simple_block.simple_block.bp_homepage_text
+  module:
+    - islandora
+    - simple_block
+    - system
+  theme:
+    - islandora_muni
+id: islandora_muni_bphomepagetext
+theme: islandora_muni
+region: content
+weight: -15
+provider: null
+plugin: 'simple_block:bp_homepage_text'
+settings:
+  id: 'simple_block:bp_homepage_text'
+  label: 'bp homepage text'
+  label_display: '0'
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

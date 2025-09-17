@@ -1,0 +1,28 @@
+uuid: 252c0f36-165e-4dd3-b387-5dd66cbd11e1
+langcode: cs
+status: false
+dependencies:
+  config:
+    - simple_block.simple_block.bp_move_comparison_link
+  module:
+    - islandora
+    - simple_block
+  theme:
+    - islandora_muni
+id: islandora_muni_bpmovecomparisonlink
+theme: islandora_muni
+region: header
+weight: -14
+provider: null
+plugin: 'simple_block:bp_move_comparison_link'
+settings:
+  id: 'simple_block:bp_move_comparison_link'
+  label: 'BP move comparison link'
+  label_display: visible
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

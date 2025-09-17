@@ -1,0 +1,7 @@
+display:
+  default:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<b>{{ drupal_view('bp_total_item_count', 'total_item_count') }}</b> fabrics<br>\r\n<b>{{ drupal_view('bp_taxonomy_statistics', 'floral_patterns') }}</b> floral patterns<br>\r\n<b>{{ drupal_view('bp_taxonomy_statistics', 'colours') }}</b> colours"

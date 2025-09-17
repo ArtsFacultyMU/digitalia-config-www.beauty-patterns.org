@@ -1,0 +1,16 @@
+display:
+  default:
+    display_options:
+      sorts:
+        date_of_creation_first_last:
+          expose:
+            label: 'Time period'
+        field_image_refid:
+          expose:
+            label: 'Catalogue number'
+      exposed_form:
+        options:
+          submit_button: View
+          exposed_sorts_label: 'Order by'
+          sort_asc_label: Ascending
+          sort_desc_label: Descending

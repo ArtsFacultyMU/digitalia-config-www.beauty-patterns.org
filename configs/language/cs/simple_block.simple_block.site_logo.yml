@@ -1,0 +1,3 @@
+content:
+  value: '<p><a class="site-branding__logo" href="/cs" rel="home"><img src="/themes/custom/islandora_muni/platform_specific/images/logo-cs.svg" alt="Home" width="206" height="NaN"></a></p>'
+  format: full_html

@@ -1,0 +1,9 @@
+uuid: 48980604-c423-4222-a76f-cde0eac98c51
+langcode: cs
+status: true
+dependencies: {  }
+name: 'Typ textilie'
+vid: object_type_detailed
+description: null
+weight: -4
+new_revision: false

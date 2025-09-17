@@ -1,0 +1,28 @@
+uuid: 0639db99-03af-42a0-86aa-346c18b621fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.footer_copyright
+  module:
+    - islandora
+    - simple_block
+  theme:
+    - islandora_muni
+id: islandora_muni_footercopyright
+theme: islandora_muni
+region: footer_first
+weight: -21
+provider: null
+plugin: 'simple_block:footer_copyright'
+settings:
+  id: 'simple_block:footer_copyright'
+  label: 'Footer copyright'
+  label_display: '0'
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

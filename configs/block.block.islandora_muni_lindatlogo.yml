@@ -1,0 +1,28 @@
+uuid: b0b53215-c63f-495b-895e-00c82a22a8bd
+langcode: cs
+status: false
+dependencies:
+  config:
+    - simple_block.simple_block.lindat_logo
+  module:
+    - islandora
+    - simple_block
+  theme:
+    - islandora_muni
+id: islandora_muni_lindatlogo
+theme: islandora_muni
+region: footer_first
+weight: -12
+provider: null
+plugin: 'simple_block:lindat_logo'
+settings:
+  id: 'simple_block:lindat_logo'
+  label: 'Lindat logo'
+  label_display: '0'
+  provider: simple_block
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

@@ -1,0 +1,9 @@
+uuid: bd159f6f-198f-4e4f-98a3-ce71087c9a03
+langcode: cs
+status: true
+dependencies: {  }
+name: Farnost
+vid: location_detailed
+description: null
+weight: -15
+new_revision: false

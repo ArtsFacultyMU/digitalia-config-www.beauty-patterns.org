@@ -1,0 +1,11 @@
+uuid: 15dd54a7-4c38-4c30-9c91-0a2119fa93dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: translate_link_to_digitalia_in_menu
+title: 'Translate link to Digitalia in menu'
+content:
+  value: "<script>\r\nif (document.documentElement.lang === 'en') {\r\n    var links = document.getElementsByClassName('muni-menu-links');\r\n    links[links.length-1].setAttribute(\"href\", \"https://digitalia.phil.muni.cz/en\");\r\n}\r\n</script>"
+  format: full_html

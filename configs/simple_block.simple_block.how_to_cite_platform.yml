@@ -1,0 +1,11 @@
+uuid: 481afd44-15f9-45fb-8ee7-446c640a480b
+langcode: cs
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: how_to_cite_platform
+title: 'How to cite platform'
+content:
+  value: "<p class=\"citace-title\">Jak citovat platformu</p><script>\r\nconst date = new Date();\r\nlet day = date.getDate();\r\nlet month = date.getMonth() + 1;\r\nlet year = date.getFullYear();\r\nlet currentDate = `${year}-${month}-${day}`;\r\n</script><p>Pokud jste využili tuto platformu pro svou práci, ocitujte ji prosím. Citováním platformy nejen vyjádříte uznání jejím tvůrcům, ale zároveň nám umožníte sledovat využívanost platformy, což je pro nás podstatný údaj pro další rozvoj infrastruktury Digitalia MUNI ARTS a její financování. Děkujeme.</p><p>Doporučená podoba citace podle citačního stylu Harvard v případě, že citujete celou databázi (například pokud ji uvádíte v poděkování):</p><p class=\"howtocite-platform\">Vácha, J. - Svoboda, F., <script>document.write(year);</script>, <em>Vzory krásy</em>, online databáze, Digitalia MUNI ARTS, Filozofická fakulta, Masarykova univerzita, zobrazeno <script>document.write(currentDate);</script>, <a href=\"https://www.beauty-patterns.org/\" target=\"_blank\">https://www.beauty-patterns.org/</a></p>"
+  format: full_html

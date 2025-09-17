@@ -1,0 +1,7 @@
+uuid: d12424a0-9351-45e3-805b-7e94fd33b2e3
+langcode: cs
+status: false
+dependencies: {  }
+formId: node_migrate_example_beer_form
+captchaType: default
+label: node_migrate_example_beer_form

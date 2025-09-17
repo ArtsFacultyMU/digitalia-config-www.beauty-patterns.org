@@ -1,0 +1,31 @@
+uuid: 27751792-74aa-4a8b-bf80-466fb81741ce
+langcode: cs
+status: true
+dependencies:
+  module:
+    - islandora
+    - system
+  theme:
+    - bartik
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: bartik_branding
+theme: bartik
+region: header
+weight: -11
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility:
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

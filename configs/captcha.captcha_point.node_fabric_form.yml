@@ -1,0 +1,7 @@
+uuid: 293025cd-fae7-460c-a08f-0ade55286ddd
+langcode: cs
+status: false
+dependencies: {  }
+formId: node_fabric_form
+captchaType: default
+label: node_fabric_form

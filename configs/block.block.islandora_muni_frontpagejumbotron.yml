@@ -1,0 +1,39 @@
+uuid: ecc7d7fd-2c42-419c-87a5-c08f516bf2c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.front_page_jumbotron
+  module:
+    - context
+    - islandora
+    - simple_block
+    - system
+  theme:
+    - islandora_muni
+id: islandora_muni_frontpagejumbotron
+theme: islandora_muni
+region: content
+weight: -22
+provider: null
+plugin: 'simple_block:front_page_jumbotron'
+settings:
+  id: 'simple_block:front_page_jumbotron'
+  label: 'Front page jumbotron'
+  label_display: '0'
+  provider: simple_block
+visibility:
+  http_status_code:
+    id: http_status_code
+    negate: false
+    status_codes:
+      200: 200
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

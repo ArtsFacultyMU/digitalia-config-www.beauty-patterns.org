@@ -1,0 +1,13 @@
+display:
+  page_1:
+    display_options:
+      menu:
+        title: 'Textile type'
+  page_2:
+    display_options:
+      menu:
+        title: 'Base technique'
+  page_3:
+    display_options:
+      menu:
+        title: 'Pattern subject'

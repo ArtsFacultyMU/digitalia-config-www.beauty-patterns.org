@@ -1,0 +1,19 @@
+uuid: ee31439e-26bc-48cb-9900-b42543c4c256
+langcode: cs
+status: true
+dependencies: {  }
+id: node__fabric
+label: 'Content: Tkanina'
+tags:
+  dcterms_coverage: '[node:field_style_period]'
+  dcterms_creator: '[unknown]'
+  dcterms_date: '[node:field_date_of_creation_first]-[node:field_date_of_creation_last]'
+  dcterms_description: '[node:field_pattern_description_long]'
+  dcterms_format: 'image/tiff|[node:field_technique_base_type]'
+  dcterms_identifier: 'http://hdl.handle.net/11222/[node:field_handle]'
+  dcterms_relation: '[digitalia_muni:field_relation:fabric:url]|[digitalia_muni:media_urls]'
+  dcterms_rights: '[node:field_rights]'
+  dcterms_source: '[node:field_source]'
+  dcterms_subject: '[node:field_pattern_type]|[node:field_pattern_subject]|[node:field_pattern_description_short]'
+  dcterms_title: '[node:title]'
+  dcterms_type: '[node:field_object_type_basic]|PhysicalObject'

@@ -1,0 +1,31 @@
+display:
+  page_4:
+    display_options:
+      menu:
+        title: Vše
+      exposed_form:
+        options:
+          submit_button: Zobrazit
+          reset_button_label: 'Vymazat filtry'
+          exposed_sorts_label: 'Seřadit podle'
+          sort_asc_label: Vzestupně
+          sort_desc_label: Sestupně
+  paged:
+    display_options:
+      fields:
+        nid:
+          fallback_options:
+            format_plural_string: !!binary MQNAY291bnQD
+  default:
+    display_options:
+      sorts:
+        field_image_refid:
+          expose:
+            label: 'Katalogové číslo'
+  block_1:
+    display_options:
+      footer:
+        area:
+          content:
+            value: '<p>Pokračovat v procházení je možné na stránkách <a href="/cs/browse/all">prohlížení</a> nebo <a href="/cs/search">vyhledávání</a>.</p>'
+            format: basic_html

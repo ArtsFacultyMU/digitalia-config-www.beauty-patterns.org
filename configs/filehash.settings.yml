@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: IJ_2l62Z0ZwSAl-qPCs6tp0SqmZisIU_RrFPQf8slFg
+algorithms:
+  md5: false
+  sha1: true
+  sha256: false
+dedupe: 0
+autohash: true

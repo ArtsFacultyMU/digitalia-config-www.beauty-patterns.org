@@ -1,0 +1,11 @@
+uuid: db529391-f633-4452-87e9-231f26e11b63
+langcode: cs
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: footer_logos
+title: footer_logos
+content:
+  value: '<p><a href="https://www.dieceznimuzeum.cz/" target="_blank"><img class="footer-icon dieceze-logo" src="/themes/custom/islandora_muni/platform_specific/images/dieceze.svg" data-entity-type="file" alt="Dieceze logo"></a> <a href="https://it.muni.cz/phil/lindat-clariah#main" target="_blank"><img class="footer-icon lindat-logo" src="/themes/custom/islandora_muni/images/LINDAT-CLARIAH-cz-small.png" data-entity-type="file" alt="Lindat logo" width="87" height="50"></a> <a href="https://www.tacr.cz/" target="_blank"><img class="footer-icon tacr-logo" src="/themes/custom/islandora_muni/images/tacr.svg" data-entity-type="file" alt="TAČR logo" width="0" height="NaN"></a> <a href="https://www.phil.muni.cz" target="_blank"><img class="footer-icon arts-logo" src="/themes/custom/islandora_muni/images/arts.png" data-entity-type="file" alt="ARTS logo" width="75" height="52"></a></p>'
+  format: full_html

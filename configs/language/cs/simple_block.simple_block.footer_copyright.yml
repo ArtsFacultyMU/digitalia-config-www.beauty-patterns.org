@@ -1,0 +1,3 @@
+content:
+  value: '<p>©&nbsp;<script>const datey = new Date(); document.write(datey.getFullYear());</script> <a href="https://muni.cz/">Masarykova univerzita</a><br><a href="mailto:digitalia@phil.muni.cz">Webmaster</a> | <a class="mc-open-dialog" href="#">Cookies</a></p>'
+  format: full_html
