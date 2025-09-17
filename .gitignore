@@ -1,0 +1,5 @@
+configs/hdl.settings.yml
+configs/islandora.settings.yml
+configs/islandora_iiif.settings.yml
+configs/openseadragon.settings.yml
+configs/search_api.server.default_solr_server.yml
