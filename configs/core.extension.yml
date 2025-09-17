@@ -32,9 +32,6 @@ module:
   datetime: 0
   dblog: 0
   devel: 0
-  digitalia_ltp_adapter: 0
-  digitalia_ltp_adapter_archivematica: 0
-  digitalia_ltp_adapter_arclib: 0
   digitalia_muni_a3d_javascript: 0
   digitalia_muni_compare_tweaks: 0
   digitalia_muni_form_handle: 0
@@ -121,7 +118,6 @@ module:
   photoswipe: 0
   phpass: 0
   prepopulate: 0
-  queue_ui: 0
   rdf: 0
   recaptcha: 0
   responsive_image: 0
@@ -136,7 +132,6 @@ module:
   serialization: 0
   shortcut: 0
   simple_block: 0
-  single_content_sync: 0
   superfish: 0
   syslog: 0
   system: 0
