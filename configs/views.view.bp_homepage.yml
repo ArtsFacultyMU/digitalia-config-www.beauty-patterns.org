@@ -147,7 +147,7 @@ display:
           plugin_id: search_api
           order: ASC
           expose:
-            label: Období
+            label: 'Time period'
             field_identifier: date_of_creation_first_last
           exposed: true
         field_image_refid:
@@ -285,7 +285,7 @@ display:
           admin_label: ''
           plugin_id: result
           empty: false
-          content: 'Zobrazeno @start - @end z @total'
+          content: 'Displaying @start - @end of @total'
       footer: {  }
       display_extenders: {  }
     cache_metadata:
