@@ -6,7 +6,6 @@ dependencies:
     - simple_block.simple_block.bp_calculate_position
   module:
     - context
-    - islandora
     - simple_block
   theme:
     - islandora_muni
@@ -27,8 +26,3 @@ visibility:
     negate: false
     view_inclusion:
       view-bp_search-main_search_page: view-bp_search-main_search_page
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''

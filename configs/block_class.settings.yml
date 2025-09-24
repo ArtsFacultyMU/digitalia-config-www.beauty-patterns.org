@@ -10,6 +10,11 @@ block_classes_stored:
   - navigation
   - menu--main
   - block-views-block-homepage-statistics-block-1
+  - right-align
+  - region-primary-menu
+  - menu-item
+  - menu
+  - hidden
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10

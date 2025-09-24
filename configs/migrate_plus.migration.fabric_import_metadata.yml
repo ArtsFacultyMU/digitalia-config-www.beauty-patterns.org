@@ -496,6 +496,8 @@ process:
 destination:
   plugin: 'entity:node'
   default_bundle: fabric
+idMap: {  }
 migration_dependencies:
   required:
     - fabric_import_metadata_prep
+include: null

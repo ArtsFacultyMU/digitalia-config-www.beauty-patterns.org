@@ -124,8 +124,8 @@ content:
     type: title
     label: hidden
     settings:
-      link_to_entity: true
       tag: h2
+      link_to_entity: true
     third_party_settings: {  }
     weight: -49
     region: content
@@ -168,6 +168,7 @@ hidden:
   field_place_published: true
   field_place_published_country: true
   field_resource_type: true
+  field_rights: true
   field_subject: true
   field_subject_general: true
   field_subjects_name: true

@@ -69,6 +69,11 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  bp_sort_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
 hidden:
   bp_author_with_orcid_link_entity_view_1: true
   bp_date_range_entity_view_1: true

@@ -23,8 +23,8 @@ content:
     type: title
     label: hidden
     settings:
-      link_to_entity: false
       tag: h2
+      link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content

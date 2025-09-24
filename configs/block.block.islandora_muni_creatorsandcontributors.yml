@@ -6,7 +6,6 @@ dependencies:
     - facets.facet.creators_and_contributors
   module:
     - facets
-    - islandora
     - system
   theme:
     - islandora_muni
@@ -30,8 +29,3 @@ visibility:
     negate: false
     context_mapping: {  }
     pages: /solr-search/content
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''

@@ -6,7 +6,6 @@ dependencies:
     - system.menu.main
   module:
     - block_class
-    - islandora
     - superfish
   theme:
     - islandora_muni
@@ -71,12 +70,9 @@ settings:
   hide_linkdescription: 0
   add_linkdescription: 0
   link_depth_class: 1
+  link_text_prefix: ''
+  link_text_suffix: ''
   custom_list_class: ''
   custom_item_class: muni-menu-item
   custom_link_class: muni-menu-links
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

@@ -11,11 +11,11 @@ dependencies:
     - entity_comparison
     - file
     - filter
-    - matomo
     - media
     - rest
     - shortcut
     - system
+    - taxonomy
 _core:
   default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
 id: authenticated
@@ -28,10 +28,10 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'delete own files'
-  - 'opt-in or out of matomo tracking'
   - 'post comments'
   - 'restful get oai_pmh'
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'use tkanina entity comparison'
   - 'view media'
+  - 'view vocabulary labels'

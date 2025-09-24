@@ -5,7 +5,6 @@ dependencies:
   config:
     - simple_block.simple_block.bp_move_comparison_link
   module:
-    - islandora
     - simple_block
   theme:
     - islandora_muni
@@ -20,9 +19,4 @@ settings:
   label: 'BP move comparison link'
   label_display: visible
   provider: simple_block
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

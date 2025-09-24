@@ -587,6 +587,7 @@ display:
                 plugin_id: default
               field_technique_plate:
                 plugin_id: default
+          text_input_required_format: ''
       access:
         type: none
       cache:
@@ -602,7 +603,7 @@ display:
           empty: true
           tokenize: false
           content:
-            value: '<p>No results were fonund.</p>'
+            value: '<p>No results were found.</p>'
             format: full_html
       sorts:
         date_of_creation_first_last:
@@ -615,6 +616,7 @@ display:
           order: ASC
           expose:
             field_identifier: date_of_creation_first_last
+            label: 'Time period'
           exposed: true
         field_image_refid:
           id: field_image_refid
@@ -626,6 +628,7 @@ display:
           order: ASC
           expose:
             field_identifier: field_image_refid
+            label: 'Catalogue number'
           exposed: true
       filters:
         search_api_fulltext:
@@ -785,6 +788,7 @@ display:
             multiple: false
             remember: false
             default_group: All
+            description: ''
         field_date_of_creation_last:
           id: field_date_of_creation_last
           table: search_api_index_fabric_index
@@ -1517,6 +1521,7 @@ display:
         search_api_fulltext:
           expose:
             label: Keyword
+            description: 'Searching the entire database.'
         field_image_refid:
           expose:
             label: 'Catalogue number'
@@ -1526,6 +1531,8 @@ display:
         field_date_of_creation_first:
           expose:
             label: to
+          group_info:
+            description: ''
         field_date_of_creation_last:
           expose:
             label: 'Year from'
@@ -1565,3 +1572,16 @@ display:
         field_pattern_subject_detailed:
           expose:
             label: 'Floral patterns'
+        field_technique_plate:
+          expose:
+            label: Plate
+      exposed_form:
+        options:
+          submit_button: Search
+          reset_button_label: 'Clear filters'
+          exposed_sorts_label: 'Order by'
+          sort_asc_label: Ascending
+          sort_desc_label: Descending
+      header:
+        result_1:
+          content: 'Displaying @start - @end of @total'

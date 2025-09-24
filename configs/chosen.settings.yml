@@ -11,13 +11,13 @@ jquery_selector: ".form-item-field-object-type-detailed select,\r\n.form-item-fi
 search_contains: false
 disable_search: false
 allow_single_deselect: true
-add_helper_buttons: false
 disabled_themes:
   claro: '0'
   bartik: '0'
   olivero: '0'
   islandora_muni: '0'
 chosen_include: 1
-placeholder_text_multiple: '- All -'
-placeholder_text_single: '- All -'
-no_results_text: 'No results match'
+placeholder_text_multiple: '- Vše -'
+placeholder_text_single: '- Vše -'
+no_results_text: 'Žádný výsledek'
+add_helper_buttons: false

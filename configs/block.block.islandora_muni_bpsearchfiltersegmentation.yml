@@ -6,7 +6,6 @@ dependencies:
     - simple_block.simple_block.bp_search_filter_segmentation
   module:
     - context
-    - islandora
     - simple_block
   theme:
     - islandora_muni
@@ -27,8 +26,3 @@ visibility:
     negate: false
     view_inclusion:
       view-bp_search-page_6: view-bp_search-page_6
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''

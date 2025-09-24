@@ -3,3 +3,8 @@ configs/islandora.settings.yml
 configs/islandora_iiif.settings.yml
 configs/openseadragon.settings.yml
 configs/search_api.server.default_solr_server.yml
+
+configs/simple_block.simple_block.matomo.yml
+configs/block.block.matomo.yml
+configs/block.block.cookies_consent_cs.yml
+configs/block.block.cookies_consent_en.yml

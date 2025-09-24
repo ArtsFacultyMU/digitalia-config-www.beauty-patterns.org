@@ -401,8 +401,8 @@ content:
     type: title
     label: hidden
     settings:
-      link_to_entity: true
       tag: h2
+      link_to_entity: true
     third_party_settings: {  }
     weight: 0
     region: content
@@ -416,6 +416,7 @@ hidden:
   field_model: true
   field_pid: true
   field_place_published_country: true
+  field_rights: true
   field_weight: true
   islandora_fits_checksum: true
   langcode: true

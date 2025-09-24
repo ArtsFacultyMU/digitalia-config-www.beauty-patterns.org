@@ -2,8 +2,6 @@ uuid: 9202d78a-be43-433f-9693-72d4895bd611
 langcode: cs
 status: true
 dependencies:
-  module:
-    - islandora
   theme:
     - islandora_muni
 _core:
@@ -19,9 +17,4 @@ settings:
   label: 'Primary admin actions'
   label_display: '0'
   provider: core
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

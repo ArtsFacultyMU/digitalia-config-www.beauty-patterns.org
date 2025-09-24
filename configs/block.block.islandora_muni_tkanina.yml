@@ -7,12 +7,11 @@ dependencies:
   module:
     - block_class
     - entity_comparison
-    - islandora
   theme:
     - islandora_muni
 third_party_settings:
   block_class:
-    classes: '.right-align .region-primary-menu .menu-item .menu'
+    classes: 'right-align region-primary-menu menu-item menu hidden'
 id: islandora_muni_tkanina
 theme: islandora_muni
 region: featured_bottom_first
@@ -25,9 +24,4 @@ settings:
   label_display: '0'
   provider: entity_comparison
   link_text: 'Compare items (@count)'
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

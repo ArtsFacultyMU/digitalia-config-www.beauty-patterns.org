@@ -67,6 +67,11 @@ content:
     third_party_settings: {  }
     weight: 10
     region: content
+  bp_sort_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   eva_date_range_entity_view_1:
     settings: {  }
     third_party_settings: {  }

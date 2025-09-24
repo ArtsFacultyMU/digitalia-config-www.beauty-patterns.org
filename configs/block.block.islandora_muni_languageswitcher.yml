@@ -3,7 +3,6 @@ langcode: cs
 status: true
 dependencies:
   module:
-    - islandora
     - language
   theme:
     - islandora_muni
@@ -18,9 +17,4 @@ settings:
   label: 'Language switcher'
   label_display: '0'
   provider: language
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

@@ -3,7 +3,6 @@ langcode: cs
 status: true
 dependencies:
   module:
-    - islandora
     - system
   theme:
     - islandora_muni
@@ -18,9 +17,4 @@ settings:
   label: 'Main page content'
   label_display: '0'
   provider: system
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

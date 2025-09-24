@@ -5,7 +5,6 @@ dependencies:
   config:
     - simple_block.simple_block.homepage_copyright
   module:
-    - islandora
     - simple_block
     - system
   theme:
@@ -22,11 +21,6 @@ settings:
   label_display: '0'
   provider: simple_block
 visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
   request_path:
     id: request_path
     negate: false

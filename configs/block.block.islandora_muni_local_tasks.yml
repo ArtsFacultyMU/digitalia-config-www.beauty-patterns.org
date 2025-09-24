@@ -2,8 +2,6 @@ uuid: 7af544c7-2b25-43e0-bf28-f5f18f05ccb5
 langcode: cs
 status: true
 dependencies:
-  module:
-    - islandora
   theme:
     - islandora_muni
 _core:
@@ -21,9 +19,4 @@ settings:
   provider: core
   primary: true
   secondary: true
-visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
+visibility: {  }

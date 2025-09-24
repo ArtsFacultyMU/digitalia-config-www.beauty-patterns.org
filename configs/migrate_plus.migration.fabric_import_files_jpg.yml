@@ -186,4 +186,6 @@ process:
       move: true
 destination:
   plugin: 'entity:file'
+idMap: {  }
 migration_dependencies: null
+include: null

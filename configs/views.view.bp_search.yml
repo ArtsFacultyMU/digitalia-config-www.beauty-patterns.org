@@ -698,7 +698,7 @@ display:
           plugin_id: text
           empty: true
           content:
-            value: "<p>No results were fonund.</p>\r\n"
+            value: "<p>Nebyly nalezeny žádné výsledky.</p>\r\n"
             format: full_html
           tokenize: false
       sorts:
@@ -712,7 +712,7 @@ display:
           plugin_id: search_api
           order: ASC
           expose:
-            label: 'Time period'
+            label: Období
             field_identifier: date_of_creation_first_last
           exposed: true
         field_image_refid:
@@ -725,7 +725,7 @@ display:
           plugin_id: search_api
           order: ASC
           expose:
-            label: 'Catalogue number'
+            label: 'Katalogové číslo'
             field_identifier: field_image_refid
           exposed: true
       arguments: {  }
@@ -2216,13 +2216,13 @@ display:
       exposed_form:
         type: bef
         options:
-          submit_button: Search
+          submit_button: Hledat
           reset_button: true
-          reset_button_label: 'Clear filters'
-          exposed_sorts_label: 'Order by'
+          reset_button_label: 'Vymazat filtry'
+          exposed_sorts_label: 'Seřadit podle'
           expose_sort_order: true
-          sort_asc_label: Ascending
-          sort_desc_label: Descending
+          sort_asc_label: Vzestupně
+          sort_desc_label: Sestupně
           text_input_required: ''
           text_input_required_format: basic_html
           bef:
@@ -2248,10 +2248,13 @@ display:
                 collapsible_label: 'Sort options'
                 is_secondary: false
             filter:
-              rendered_item_metadata:
+              search_api_fulltext:
                 plugin_id: default
                 advanced:
                   placeholder_text: ''
+                  rewrite:
+                    filter_rewrite_values: ''
+                    filter_rewrite_values_key: false
                   collapsible: false
                   collapsible_disable_automatic_open: false
                   is_secondary: false
@@ -2283,7 +2286,7 @@ display:
                   collapsible_disable_automatic_open: false
                   is_secondary: false
                   hide_label: false
-              field_date_of_creation_first:
+              field_date_of_creation_last:
                 plugin_id: default
                 advanced:
                   placeholder_text: ''
@@ -2291,7 +2294,7 @@ display:
                   collapsible_disable_automatic_open: false
                   is_secondary: false
                   hide_label: false
-              field_date_of_creation_last:
+              field_date_of_creation_first:
                 plugin_id: default
                 advanced:
                   placeholder_text: ''
@@ -2365,18 +2368,6 @@ display:
                   collapsible_disable_automatic_open: false
                   is_secondary: false
                   hide_label: false
-              field_technique_warp_1:
-                plugin_id: bef_links
-                advanced:
-                  placeholder_text: ''
-                  rewrite:
-                    filter_rewrite_values: ''
-                    filter_rewrite_values_key: false
-                  collapsible: false
-                  collapsible_disable_automatic_open: false
-                  is_secondary: false
-                  hide_label: false
-                select_all_none: false
               field_technique_warp:
                 plugin_id: default
                 advanced:
@@ -3482,7 +3473,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: Plate
+            label: Lamela
             description: ''
             use_operator: false
             operator: field_technique_plate_op
@@ -3617,7 +3608,7 @@ display:
           admin_label: ''
           plugin_id: result
           empty: false
-          content: 'Displaying @start - @end of @total'
+          content: 'Zobrazeno @start - @end z @total'
       exposed_block: true
       display_extenders:
         matomo:

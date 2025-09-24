@@ -122,6 +122,11 @@ content:
     third_party_settings: {  }
     weight: 11
     region: content
+  bp_sort_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   bp_thumbnail_header_entity_view_1:
     settings: {  }
     third_party_settings: {  }
@@ -254,8 +259,8 @@ content:
     type: title
     label: hidden
     settings:
-      link_to_entity: true
       tag: h2
+      link_to_entity: true
     third_party_settings: {  }
     weight: 0
     region: content

@@ -78,12 +78,12 @@ display:
           click_sort_column: target_id
           type: photoswipe_field_formatter
           settings:
+            photoswipe_image_style: ''
+            photoswipe_view_mode: _custom
             photoswipe_node_style_first: ''
             photoswipe_node_style: ''
-            photoswipe_image_style: ''
             photoswipe_caption: title
             photoswipe_caption_custom: ''
-            photoswipe_view_mode: _custom
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -312,12 +312,12 @@ display:
           click_sort_column: target_id
           type: photoswipe_field_formatter
           settings:
+            photoswipe_image_style: ''
+            photoswipe_view_mode: _custom
             photoswipe_node_style_first: resize_crop_800x600
             photoswipe_node_style: resize_crop_800x600
-            photoswipe_image_style: ''
             photoswipe_caption: title
             photoswipe_caption_custom: ''
-            photoswipe_view_mode: _custom
           group_column: ''
           group_columns: {  }
           group_rows: true
@@ -556,12 +556,12 @@ display:
           click_sort_column: target_id
           type: photoswipe_field_formatter
           settings:
+            photoswipe_image_style: ''
+            photoswipe_view_mode: _custom
             photoswipe_node_style_first: resize_crop_800x600
             photoswipe_node_style: resize_crop_800x600
-            photoswipe_image_style: ''
             photoswipe_caption: title
             photoswipe_caption_custom: ''
-            photoswipe_view_mode: _custom
           group_column: ''
           group_columns: {  }
           group_rows: true

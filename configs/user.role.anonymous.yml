@@ -15,6 +15,7 @@ dependencies:
     - rest
     - search_api_autocomplete
     - system
+    - taxonomy
 _core:
   default_config_hash: 6WavjUYXIegP9AAg2zXGx54MWIVoomC3SZhNiqe-Dyk
 id: anonymous
@@ -30,3 +31,4 @@ permissions:
   - 'use text format restricted_html'
   - 'use tkanina entity comparison'
   - 'view media'
+  - 'view vocabulary labels'

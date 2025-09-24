@@ -6,7 +6,6 @@ dependencies:
     - simple_block.simple_block.front_page_jumbotron
   module:
     - context
-    - islandora
     - simple_block
     - system
   theme:
@@ -28,11 +27,6 @@ visibility:
     negate: false
     status_codes:
       200: 200
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
   request_path:
     id: request_path
     negate: false

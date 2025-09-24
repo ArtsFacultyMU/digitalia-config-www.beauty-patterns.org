@@ -1,0 +1,7 @@
+uuid: caebe187-9788-46e9-9685-0173bbb9a167
+langcode: en
+status: true
+dependencies: {  }
+formId: contact_message_feedback_form
+captchaType: image_captcha/Image
+label: contact_message_feedback_form

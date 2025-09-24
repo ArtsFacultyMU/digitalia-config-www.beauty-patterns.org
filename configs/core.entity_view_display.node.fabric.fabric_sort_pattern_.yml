@@ -59,6 +59,11 @@ targetEntityType: node
 bundle: fabric
 mode: fabric_sort_pattern_
 content:
+  bp_sort_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   list_download_links_entity_view_1:
     settings: {  }
     third_party_settings: {  }

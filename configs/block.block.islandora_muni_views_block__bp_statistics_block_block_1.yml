@@ -6,7 +6,6 @@ dependencies:
     - views.view.bp_statistics_block
   module:
     - block_class
-    - islandora
     - system
     - views
   theme:
@@ -28,11 +27,6 @@ settings:
   views_label: ''
   items_per_page: none
 visibility:
-  media_source_mimetype:
-    id: media_source_mimetype
-    negate: false
-    context_mapping: {  }
-    mimetype: ''
   request_path:
     id: request_path
     negate: false

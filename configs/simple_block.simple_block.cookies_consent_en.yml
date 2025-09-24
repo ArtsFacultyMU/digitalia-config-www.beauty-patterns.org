@@ -1,0 +1,11 @@
+uuid: c0a7cd36-ed00-4a4a-9ea4-ca3dcc3eebec
+langcode: cs
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: cookies_consent_en
+title: cookies_consent_en
+content:
+  value: "<script>\r\n!function(i,c){i.muniCookies=c;var s=document.createElement(\"script\");s.src=c.scriptUrl+\"main.js\",document.head.appendChild(s)}(window,{\r\nscriptUrl: 'https://cdn.muni.cz/Scripts/libs/muni-cookies/',\r\nlang: 'en',\r\ncustomStyle: true,\r\nkey: 'eda67ece-9ee5-4e81-9fe4-06467603dff7'})\r\n</script>"
+  format: full_html

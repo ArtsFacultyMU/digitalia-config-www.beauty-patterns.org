@@ -676,3 +676,4 @@ content:
     third_party_settings: {  }
 hidden:
   field_place_published_country: true
+  field_rights: true

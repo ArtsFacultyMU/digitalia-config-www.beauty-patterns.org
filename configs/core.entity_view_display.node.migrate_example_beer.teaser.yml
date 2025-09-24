@@ -83,10 +83,21 @@ content:
     third_party_settings: {  }
     weight: 10
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      linked: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_comments: true
   field_migrate_example_beer_style: true
   field_migrate_example_country: true
   field_migrate_example_image: true
   langcode: true
   search_api_excerpt: true
+  uid: true

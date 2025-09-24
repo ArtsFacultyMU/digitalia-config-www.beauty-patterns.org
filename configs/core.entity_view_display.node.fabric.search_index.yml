@@ -73,6 +73,11 @@ content:
     third_party_settings: {  }
     weight: 34
     region: content
+  bp_sort_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
   field_date_of_creation_decade:
     type: edtf_default
     label: above
@@ -396,8 +401,8 @@ content:
     type: title
     label: hidden
     settings:
-      link_to_entity: true
       tag: h2
+      link_to_entity: true
     third_party_settings: {  }
     weight: 0
     region: content
